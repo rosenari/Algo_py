@@ -11,7 +11,7 @@ def recursive(sR, sC, dR, dC, N):
     if counting(sR, sC, dR, dC):
         return
 
-    nN = int(N/2)
+    nN = N // 2
     recursive(sR, sC, dR - nN, dC - nN, nN)
     recursive(sR, sC + nN, dR - nN, dC, nN)
     recursive(sR + nN, sC, dR, dC - nN, nN)
