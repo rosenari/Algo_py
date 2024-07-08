@@ -5,8 +5,6 @@ import sys
 import math
 
 
-dr = [0, 0, 1, 1]
-dc = [0, 1, 0, 1]
 def Z(sR, sC, size, num):
     if size == 1:
         if sR == r and sC == c:
